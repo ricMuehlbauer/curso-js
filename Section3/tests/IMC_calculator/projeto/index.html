@@ -4,20 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Modelo</title>
+    <title>IMC Calculator</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <section class="container">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolore
-      architecto aliquid quo quod earum veniam, molestias dicta, dolor deleniti
-      expedita veritatis sint sed fugiat iste omnis consequatur excepturi
-      consectetur.
-      <form action="" class="formulario">
-        <input type="text">Peso:</input>
-        <input type="text">Altura:</input>
-        <button>Submit</button>
+      <div>
+        <h1>Calcule seu IMC</h1>
+        
+      </div>
+      
+      <form action="/" id="formulario" method="POST">
+        <label for="peso">Peso:</label>
+        <input type="text" id="peso"></input>
+        <label for="altura">Altura:</label>
+        <input type="text" id="altura"></input>
+        <button type="submit">Submit</button>
       </form>
+
+      <div id="resultado"></div>
     </section>
 
     <script src="./assets/js/main.js"></script>
