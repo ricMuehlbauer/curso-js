@@ -1,22 +1,24 @@
 # curso-js
 
-Javascript study repository
+## Javascript study repository
 
-My extensions:
+## My extensions:
 
-_Code Runner_;
-_Docker_;
-_Git History_;
-_GitLens_;
-_Live Server_;
-_Prettier - Code Formatter_;
-_Visual Studio IntelliCode_;
+```bash
+Code Runner
+Docker
+Git History
+GitLens
+Live Server
+Prettier - Code Formatter
+Visual Studio IntelliCode
 
 //For theme and style
-_vscode-icons_;
-_Dracula Oficcial_;
+vscode-icons
+Dracula Oficcial
+```
 
-Udemy Course
+## Udemy Course
 
 Title: Curso de JavaScript e TypeScript do básico ao avançado 2021
 
